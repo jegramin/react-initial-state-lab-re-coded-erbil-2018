@@ -5,11 +5,14 @@ export default class Bomb extends React.Component{
   constructor(props){
     super();
     this.state{
-      secondsLeft:props.initialCount
+      secondsLeft:props.initialCount;
     }
   }
   
   render(){
+    if(secondsLeft===0){
+      message = 
+    }
     return(
         <div>`{this.state.secondsLeft} seconds left before I go boom!`</div>
       )
