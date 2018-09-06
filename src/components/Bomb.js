@@ -10,7 +10,7 @@ export default class Bomb extends React.Component{
   }
   
   render(){
-    const message;
+    let message;
     if(secondsLeft===0){
       message = 'Boom!';
     }else{
