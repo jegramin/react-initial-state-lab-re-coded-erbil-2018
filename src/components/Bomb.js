@@ -11,7 +11,7 @@ export default class Bomb extends React.Component{
   
   render(){
     if(secondsLeft===0){
-      message = 
+      message = 'Boom!';
     }
     return(
         <div>`{this.state.secondsLeft} seconds left before I go boom!`</div>
