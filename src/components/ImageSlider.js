@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 export default class ImageSlider extends React.Component{
   constructor(){
     super();
-    this.state{
+    this.state ={
       currentSlideIndex: 0;
     }
   }
